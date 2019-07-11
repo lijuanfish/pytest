@@ -12,6 +12,8 @@ class TestLogin:
     # @pytest.mark.run(order=1)
     def test_log4(self):
         print("4")
+    def test_log5(self):
+        print("5")
 
 if __name__ == '__main__':
     pytest.main(["-s","test_login.py"])
